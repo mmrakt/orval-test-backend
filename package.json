@@ -1,0 +1,20 @@
+{
+  "name": "orval-test-backend",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "generate": "orval --config ./orval.config.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "msw": "^2.2.13",
+    "orval": "^6.26.0",
+    "typescript": "^5.4.4"
+  }
+}
