@@ -1,0 +1,28 @@
+{
+  "name": "@mmrakt/api",
+  "module": "index.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mmrakt/orval-test-backend.git",
+    "directory": "api"
+  },
+  "version": "0.1.0",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "generate": "orval --config ./orval.config.ts",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "dotenv": "^16.4.5",
+    "msw": "^2.2.13",
+    "orval": "^6.26.0",
+    "typescript": "^5.4.4"
+  }
+}

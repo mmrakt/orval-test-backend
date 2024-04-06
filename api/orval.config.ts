@@ -7,7 +7,7 @@ export default defineConfig({
       validation: true,
     },
     output: {
-      target: "./src/api/",
+      target: "./src/",
       mock: true,
       client: "axios",
       mode: "split",

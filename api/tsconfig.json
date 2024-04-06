@@ -1,0 +1,17 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    // https://github.com/mswjs/msw/issues/1819#issuecomment-1789364174
+    "lib": ["ES2023", "DOM"],
+    "target": "es2020",
+    "declaration": true,
+    "declarationMap": true,
+    "module": "commonjs",
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["./src"]
+}
