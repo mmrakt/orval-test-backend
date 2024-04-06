@@ -1,6 +1,11 @@
 {
-  "name": "orval-test-backend",
+  "name": "@mmrakt/orval-test-backend",
   "module": "index.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mmrakt/orval-test-backend.git"
+  },
+  "version": "0.1.0",
   "type": "module",
   "scripts": {
     "generate": "orval --config ./orval.config.ts"
@@ -13,8 +18,9 @@
   },
   "dependencies": {
     "axios": "^1.6.8",
+    "dotenv": "^16.4.5",
     "msw": "^2.2.13",
     "orval": "^6.26.0",
-    "typescript": "^5.4.4"
+    "typescript": "^5.0.0"
   }
 }
