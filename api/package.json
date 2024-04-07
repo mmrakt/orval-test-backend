@@ -1,16 +1,24 @@
 {
   "name": "@mmrakt/api",
-  "module": "index.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/mmrakt/orval-test-backend.git",
     "directory": "api"
   },
-  "version": "0.2.0",
+  "version": "0.3.0",
   "type": "module",
   "files": [
     "dist"
   ],
+  "exports": {
+    ".": {
+      "require": "./dist/aPISpecification.js",
+      "types": "./dist/aPISpecification.d.ts"
+    }
+  },
+  "main": "./dist/aPISpecification.js",
+  "module": "./dist/aPISpecification.js",
+  "types": "./dist/aPISpecification.d.ts",
   "scripts": {
     "generate": "orval --config ./orval.config.ts",
     "build": "tsc"
